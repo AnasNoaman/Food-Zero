@@ -1,0 +1,9 @@
+:root{
+    --mainColor: rgba(23, 33, 00, .95);
+    --subColor:rgba(23,33,00,.8);
+    --fontNav:  "Rufina", serif;
+}
+body{
+    font-family: var(--fontNav)
+}
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');

@@ -1,0 +1,63 @@
+.navbar{
+    color: white;
+}
+ .navbar .navbars{
+    width: 28px;
+    height: 28px;
+}
+.navbar .leftnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.rightnav .b-Reservations{
+    background-color:transparent;
+    color: white;
+    padding: 5px 15px;
+    border-color: white;
+    border: 1px solid;
+}
+.navbar .rightnav{
+    font-family: var(--fontNav);
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+iframe{
+    height: 100vh;
+    width: 100%;
+    border: none;
+}
+.modal-body {
+    padding: 0;
+    height: 100vh;
+  }
+ .modal-body .btn{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    border: none;
+ }
+ @media (max-width: 992px) {
+     .navbar-brand img{
+        width: 150px;
+        height: 55px;
+    }  
+    .navbar .rightnav{
+        font-size: 15px;
+    }
+}
+@media (max-width: 576px) { 
+    .navbar .leftnav{
+        width: 100%;
+    }
+    .navbar .rightnav{
+        width: 100%;
+    align-items: center;
+    }
+ }
+   
+  

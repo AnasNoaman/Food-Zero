@@ -1,0 +1,82 @@
+.navatioin{
+    background:
+    linear-gradient(var(--subColor), var(--subColor)),
+     url(../img/public/Image.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.navatioin .left{
+   margin-top: 30px;
+}
+.navatioin .left ul{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+}
+.navatioin .left li {
+    font-family: var(--fontNav);
+    font-size: 66px;
+    color: white;
+    
+}
+.navatioin .collapsing {
+    height: 0;
+    overflow: hidden;
+}
+.navatioin .blogs{
+    margin-left: 30px;
+}
+.navatioin .blogs .blogsli li{
+    font-size: 46px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navatioin .contactInfo{
+    display: flex;
+    flex-direction: column;
+}
+.socailmed{
+    display: flex;
+    gap: 10px;
+}
+.socailmed .media{
+    width: 28px;
+    height: 28px;
+}
+.navatioin .col{
+    position: relative;
+}
+.navatioin .right{
+  height: 100vh;
+}
+
+.navatioin .right .contact{
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    color: white;
+    flex-direction: column;
+    gap: 15px;
+    font-family: var(--fontNav);
+}
+@media (max-width:1100px) {
+    .navatioin .left li {
+        font-size: 46px;
+    }
+    .navatioin .blogs .blogsli li{
+        font-size: 26px;
+    }
+}
+@media (max-width:568px) {
+    .navatioin .col {
+        display: none;
+      }
+      .navatioin .blogs{
+        margin-left: 0px;
+    }
+}

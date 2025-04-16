@@ -1,0 +1,209 @@
+.navication {
+    background-image: url(../img/blogs/blog1.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.navication .discreption .container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    color: white;
+    font-family: var(--fontNav);
+    display: flex;
+    margin-top: 10%;
+
+    gap: 20px;
+}
+
+.navication .discreption h1 {
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navication .discreption p {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.navication .discreption .col-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (max-width:576px) {
+    .navication .discreption h1 {
+        font-size: 60px;
+        font-weight: 600;
+    }
+
+    .navication .discreption p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+.blog-section {
+    padding: 150px 0;
+    background-color: white;
+    nav{
+        padding-top: 50px;
+    }
+  }
+  
+  .blog-card .fasion {
+    background-color: var(--subColor);
+  }
+  
+  .information {
+    color: var(--subColor);
+  }
+  
+  .blog-card h5 {
+    color: #000;
+    font-size: 36px;
+  }
+  
+  .blog-card p {
+    color: #000;
+    font-size: 18px;
+  }
+  
+  /* Responsive for small screens */
+  @media (max-width: 576px) {
+    .blog-card {
+      margin-bottom: 2rem;
+    }
+  
+    .blog-card h5 {
+      font-size: 24px;
+    }
+  
+    .blog-card p {
+      font-size: 16px;
+    }
+  
+    .information {
+      font-size: 13px;
+    }
+  }
+  .footer {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-color: #1e2a04;
+    color: #fff;
+    .social-icons{
+        display: flex;
+        gap: 15px;
+        a{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    h2{
+        font-size: 60px;
+    }
+    .subsi{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+    .loccon{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .foter{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  }
+  .reservation-section{
+    padding: 120px 0;
+    background-color:#f4f7ef ;
+    h2{
+        font-size: 65px;
+        color: #000;
+        font-weight: 700;
+    }
+    .formres{
+        background-color: transparent;
+    }
+    button{
+        background-color: var(--mainColor);
+        color: white;
+    }
+    .inforest{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .bubook{
+        padding: 50px 0;
+    }
+  }
+  .footer input {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 0;
+  }
+  .dotted-line{
+    border-top: 2px dotted white;
+  }
+  .footer input::placeholder {
+    color: #ccc;
+  }
+  
+  .footer .btn {
+    background-color: #5E6600;
+    border-radius: 0;
+  }
+  
+  .footer .social-icons a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .footer .social-icons a:hover {
+    color: var(--mainColor);
+  }
+  @media (max-width: 576px) {
+    .footer h2 {
+      font-size: 24px;
+    }
+    .footer .row > div {
+      margin-bottom: 20px;
+    }
+    .footer form {
+      flex-direction: column;
+    }
+    .footer input,
+    .footer .btn {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width:768px) {
+    .footer{
+        .foter{
+           
+            align-items: center;
+            justify-content: center;
+        }
+        .loccon{
+            align-items: center;
+        }
+        .headfood{
+           text-align: center;
+        }
+    }
+  }
